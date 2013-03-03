@@ -1,0 +1,16 @@
+{
+  "name": "easy-opts",
+  "description": "Lightweight options parser for node.js applications",
+  "version": "0.0.1",
+  "author": "A.Mostovenko",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/AlexMost/easy-opts.js.git"
+  },
+  "scripts": {"postinstall": "cake build"},
+  "engine" : [ "node >=0.1.102" ],
+  "main" : "./lib/easy-opts.js",
+  "devDependencies" : {
+    "nodeunit": "*"
+    }
+}
