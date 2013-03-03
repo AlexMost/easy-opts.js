@@ -93,7 +93,7 @@ parse_args = (argv) ->
     Object.freeze ret
 
 
-parse_process_args = -> get_args_list process.argv[2..]
+parse_process_args = -> parse_args process.argv[2..]
 
 
 construct_cmd = (args_list) ->
