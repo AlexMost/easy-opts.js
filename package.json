@@ -4,13 +4,26 @@
   "version": "0.0.1",
   "author": "A.Mostovenko",
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "https://github.com/AlexMost/easy-opts.js.git"
   },
-  "scripts": {"postinstall": "cake build"},
-  "engine" : [ "node >=0.1.102" ],
-  "main" : "./lib/easy-opts.js",
-  "devDependencies" : {
+  "scripts": {
+    "postinstall": "cake build"
+  },
+  "engine": [
+    "node >=0.1.102"
+  ],
+  "main": "./lib/easy-opts.js",
+  "devDependencies": {
     "nodeunit": "*"
-    }
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "arguments parser",
+    "parser",
+    "command line arguments"
+  ]
 }
